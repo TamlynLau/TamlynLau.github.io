@@ -47,7 +47,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
+    width: 200px;
     height: auto;
     float: right;
 	margin-top: 0.5rem;
@@ -61,5 +61,5 @@ main {
 
 footer {
 	background-color: black;
-    font-size: /* smaller */;
+    font-size:  1rem;
 }
