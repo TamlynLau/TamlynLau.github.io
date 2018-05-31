@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Vollkorn', serif;
+}
+
+header, nav, main, footer {
+    max-width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.header {
+    position: relative;
+
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #24655e;
+    font-size: 4em;
+    margin: 1px;
+    padding-top: 5px;
+    
+}
+
+header img {
+    float: left;
+    padding: 1px;
+}
+
+header .subheading {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #24655e;
+    font-size: 2em;
+    margin: 1px;
+}
+
+nav {}
+nav button {}
+nav ul {}
+nav ul li {
+    font-family: 'Candal', sans-serif;
+    font-size: 1em;
+}
+nav ul li a {}
+
+nav ul li.active a {
+    background-color: #a3bb49;
+}
+
+nav ul li a:hover {
+    background-color: #24655e;
+}
+
+main {
+    padding: 0px 10px 10px 10px;
+}
+
+.logo {
+    height: 15%;
+    width: 15%;
+}
+    
+.title{
+    float: left;
+    }
+.subheading{
+    float: left;
+}
+}
+
+.picture {
+    position: absolute;
+    float: left;
+}
+
+main h2 {
+    font-family: 'Vollkorn', serif;
+    color: #24655e;
+    font-size: 2.5em;
+    margin: 1px;
+    padding-top: 5px;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+main figure img {
+    margin: 0 auto;
+    width: 50%;
+}
+
+    
+article p.town-article img{
+    float: right;
+    width: 100%;  //makes it fill column on small screen
+    }
+    
+    
+    
+    
+footer {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #e1e6cd;
+    background-color: #a3bb49;
+
+}
